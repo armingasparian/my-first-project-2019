@@ -1,5 +1,8 @@
 # my-first-project-2019
 It was 2019 when I decided to jump in web development. /My first mini project/
+
+
+
 ------------------------------
 This project couse the base that I have started to deeply love and study the web development. 
 Here I show my fisrt steps, when I was started to create my first mini project and tried to learn the base of the website by myself.
