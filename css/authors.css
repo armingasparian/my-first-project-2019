@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Raleway, Helvetica, sans-serif;
+}
+
+header{
+	background-image: url(../images/authors1.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+	height: 60vh;
+	background-size: 100%;
+}
+
+.hexinak {
+	font-size: 30px;
+	color: ghostwhite;
+	text-align: center;	
+	margin-top: 7%;
+}
+
+#hexinak {
+	margin: auto;
+	display: block;
+}
+
+#hexinak:after {
+	content: "";
+	display: block;
+	width: 45%;
+	height: 3px;
+	background-color: ghostwhite;
+	margin: 20px auto;
+	border-radius: 100%;
+}
+
+.mardy {
+	margin:auto;
+	display: block;
+	text-align:center;
+	font-size: 32px;
+	font-weight: 450;
+}
+
+.mardik {
+	margin-top: 30px;
+	list-style-type: none;
+	display: flex;
+}
+
+.mardik a {
+	color: ghostwhite;
+	text-decoration: none;
+}
+
+#mardik {
+	display: flex;
+	margin: 3px auto;
+	text-align: left;
+	font-weight: 550;
+	font-size: 24px;
+	
+}
+
+#mardik a:hover {
+	color: yellow;
+	text-shadow: 4px 4px 10px #502A01; 
+}
+
+.ul1 li, .ul2 li, .ul3 li {
+	display: block;
+	padding-top: 5px;
+}
+
+.ul2 {
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+/*-----------------------Content-------------------------*/
+
+.content {
+	margin-left: 15%;
+	margin-right: 30%;
+}
+
+#ari {
+	font-size: 60px;
+	text-align: center;
+	font-weight: 600;
+	color: #502A01;
+	text-shadow: 4px 3px 3px #925502;
+	padding-top: 5%;
+	padding-bottom: 40px;
+}
+
+#ari:after {
+	content: "";
+	display: block;
+	width: 45%;
+	height: 5px;
+	background-color: #925502;
+	margin: 20px auto;
+	border-radius: 100%;
+}
+
+.container {
+	margin: 0 5%;
+}
+
+.content img {
+	max-height: 320px;
+	max-width: 450px;
+	border: 15px solid white;
+	border-radius: 25px;
+	box-shadow: 15px 15px 15px #EEAD0D;
+	transition: 1s;
+} 
+
+.content img:hover {
+	transform: rotateY(180deg);
+}
+
+#tumanyan, #abovyan, #teryan,
+#mecarenc, #charenc, #shiraz,
+#isahakyan, #sahyan, #bakunc {
+	display: flex;
+	margin-bottom: 5%;
+	align-items: center;
+}
+
+.information {
+	margin-left: 5%;
+}
+
+.anun1 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 600;
+	color: #E96523;
+	text-shadow: 4px 3px 3px #EEAD0D;
+	margin-bottom: 40px;
+}
+
+.masin {
+	text-align: justify;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.masin:hover {
+	text-shadow: 5px 0.5px yellow;
+}

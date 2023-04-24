@@ -1,0 +1,41 @@
+
+.menu {
+    width: 100%;
+    background-color: #ECAC56;
+    opacity: 0.9;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.list li {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    border: 5px solid transparent;
+}
+
+.list li:hover {
+    color: #6C381A;
+    border: 5px solid #EDA62D;
+    background-color: white;
+    border-radius: 100px;
+}
+
+.list li:hover a {
+    color: #6C381A;
+}
+
+.list a{
+    color: white;
+    text-decoration: none;
+}

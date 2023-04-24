@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway, Helvetica, sans-serif;
+}
+
+.header {
+    background-image: url(../images/index1.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100%;
+}
+
+.ari {
+    color: #664218;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20%;
+}
+
+#ari_karda_sovorir {
+    font-size: 64px;
+}
+
+#ari_karda_sovorir:after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 3px;
+    background-color: #664218;
+    margin: 20px auto;
+    border-radius: 100%;
+}
+
+.ari_karda {
+    text-align: center;
+    font-size: 40px;
+}
+
+.mardy {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#ralf {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+/*----------------Content/Content1----------------------*/
+
+.hexinak {
+    display: flex;
+    margin: 8% 15%;
+}
+
+.hexinak_name {
+    font-size: 32px;
+    font-weight: 750;
+    color: #D87C1B;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.xosq:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.hexinak_vot {
+    font-style: italic;
+    font-weight: 550;
+    font-size: 24px;
+    text-align: center;
+}
+
+#charenc_pic {
+    height: 320px;
+    box-shadow: 30px 30px 30px black;
+    border-radius: 10%;
+    margin-right: 150px;
+}
+
+#shiraz_pic {
+    height: 356px;
+    box-shadow: 30px 30px 30px black;
+    border-radius: 10%;
+    margin-left: 150px;
+}
+
+#isahakyan_pic {
+    height: 335px;
+    box-shadow: 30px 30px 30px black;
+    border-radius: 10%;
+    margin-right: 150px;
+}
+
+/*----------------------Index2-------------------------------*/
+
+#index2 {
+    background-image: url(../images/index2.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.vernatun {
+    color: #F9EEE6;
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    text-shadow: 2px 2px 2px black;
+}
+
+.vernatun h3 {
+    font-size: 56px;
+    margin-bottom: 24px;
+}
+
+.vernatun:after {
+    content: "";
+    display: block;
+    width: 38%;
+    height: 3px;
+    background-color: #F9EEE6;
+    margin: 5px auto;
+    border-bottom: 2px solid #F9EEE6;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.vernatan_masin {
+    color: #F9EEE6;
+    text-align: center;
+    display: block;
+    font-size: 24px;
+    margin: 30px 10%;
+    text-shadow: 2px 2px 5px black;
+}
+
+#vernatun {
+    margin-top: 5%;
+}
+
+/*----------------Content/Content2---------------------*/
+
+#abovyan_pic {
+    height: 356px;
+    box-shadow: 30px 30px 30px black;
+    border-radius: 10%;
+    margin-left: 150px;
+}
+
+#mecarenc_pic {
+    height: 330px;
+    box-shadow: 30px 30px 30px black;
+    border-radius: 10%;
+    margin-right: 150px;
+}
